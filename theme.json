@@ -1,4 +1,75 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+	"customTemplates": [],
+	"patterns": [],
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#333",
+					"name": "Light/Black",
+					"slug": "lightblack"
+				},
+				{
+					"color": "#f2f2f2",
+					"name": "Snow/White",
+					"slug": "snowwhite"
+				},
+				{
+					"color": "gray",
+					"name": "Gray",
+					"slug": "gray"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "840px",
+			"wideSize": "1100px"
+		},
+		"spacing": {
+			"spacingScale": {
+				"increment": 6,
+				"mediumStep": 0.75,
+				"operator": "+",
+				"steps": 5,
+				"unit": "px"
+			}
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/post-title": {
+				"typography": {
+					"fontSize": "22px"
+				}
+			},
+			"core/site-title": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--gray)"
+		},
+		"spacing": {
+			"margin": {
+				"bottom": "20px",
+				"left": "20px",
+				"right": "20px",
+				"top": "20px"
+			}
+		},
+		"typography": {
+			"fontFamily": "Arial",
+			"fontSize": "18px"
+		}
+	},
+	"templateParts": [],
 	"version": 2
 }
