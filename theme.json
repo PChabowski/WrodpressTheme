@@ -64,12 +64,15 @@
 				}
 			},
 			"core/navigation": {
+				"color": {
+					"text": "var(--wp--preset--color--snowwhite)"
+				},
 				"elements": {
 					"link": {
 						":hover": {
 							"color": {
 								"background": "var(--wp--preset--color--snowwhite)",
-								"text": "var(--wp--preset--color--lightblack)"
+								"text": "var(--wp--preset--color--lightblack)!important"
 							}
 						}
 					}
